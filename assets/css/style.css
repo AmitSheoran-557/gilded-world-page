@@ -117,13 +117,13 @@ section {
     bottom: 0;
     left: 0;
 }
+
 .line:before {
     position: absolute;
     content: "";
     width: 158px;
     height: 2px;
     background: #C4C4C4;
-
     bottom: 0;
     right: 0;
 }
@@ -200,10 +200,24 @@ section {
     padding-left: 18px;
 }
 
+.vertical-line:after {
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 67px;
+    right: 50%;
+    bottom: 0;
+    background: #8C8C8C;
+}
+
 .border-bottom {
     border-bottom: 1px solid lightgray;
 }
-
+.border-right{
+    width: 66px;
+    height: 30px;
+    border-right:1px solid #8C8C8C;
+}
 .border-2 {
     gap: 6px;
     width: 397px;
@@ -229,16 +243,6 @@ section {
     left: 0;
 }
 
-.horizontal-line-2:after {
-    position: absolute;
-    content: "";
-    width: 395px;
-    height: 0px;
-    border: 0.4px solid #8C8C8C;
-    top: 0;
-    left: 0;
-    margin-top: 8px;
-}
 
 .box {
     display: flex;
@@ -363,7 +367,9 @@ ul li a {
     width: 100%;
 
 }
-
+.pr-50{
+    padding-right: 50px;
+}
 .position-relative {
     position: relative;
 }
