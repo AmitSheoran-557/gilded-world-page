@@ -405,3 +405,57 @@ ul li a {
 .flex-col {
     flex-direction: column;
 }
+@media (max-width:992px) {
+    ul {
+        right: -100%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        margin-top: 77px;
+        width: 100%;
+        height: 100%;
+        text-align: left;
+        gap: 0;
+        color: black;
+        justify-content: center;
+        align-items: center;
+        z-index: 4;
+    }
+
+
+
+    .span {
+        width: 35px;
+        height: 3px;
+        background-color: white;
+        display: flex;
+        margin-bottom: 5px;
+
+    }
+
+    .justify-center-992 {
+        justify-content: center;
+    }
+
+    label {
+        float: right;
+        color: white;
+        z-index: 5;
+        padding-top: 22px;
+    }
+
+    .check:checked~ul {
+        right: 0%;
+        transition: all 300ms linear;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+
+    }
+
+    ul li a {
+        color: black;
+    }
+
+}
