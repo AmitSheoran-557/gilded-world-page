@@ -108,6 +108,25 @@ section {
     color: var(--fc-white);
 }
 
+.line:after {
+    position: absolute;
+    content: "";
+    width: 239px;
+    height: 2px;
+    background: linear-gradient(180deg, #815CC8 0%, #1BABFE 100%);
+    bottom: 0;
+    left: 0;
+}
+.line:before {
+    position: absolute;
+    content: "";
+    width: 158px;
+    height: 2px;
+    background: #C4C4C4;
+
+    bottom: 0;
+    right: 0;
+}
 
 .about {
     font-family: var(--primary);
@@ -281,9 +300,10 @@ section {
 
 ul li a {
     font-family: var(--primary);
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 400;
     line-height: 22px;
+    text-align: left;
     color: var(--fc-white);
 }
 
@@ -309,11 +329,6 @@ ul li a {
     padding-right: 12px;
 }
 
-.col-5 {
-    width: 41.33%;
-    padding-left: 12px;
-    padding-right: 12px;
-}
 
 /* =================================utility class===================================== */
 .align-item-center {
