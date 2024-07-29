@@ -1,0 +1,383 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+}
+
+
+.container-1 {
+    max-width: 1140px;
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+/* ===================================================================== */
+
+.flex-grow {
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.bg-img {
+    background-image: url(/assets/image/Rectangle\ 2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.main-heading {
+    font-family: var(--secondary);
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 91.8px;
+    text-align: left;
+    color: var(--fc-white);
+}
+
+.font-color-change {
+    color: #1BABFE;
+}
+
+.token-counting {
+    font-family: var(--primary);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    color: var(--fc-white);
+}
+
+.token-sold {
+    font-family: var(--primary);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: var(--fc-white);
+}
+
+.date-time {
+    font-family: var(--primary);
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: left;
+    color: var(--fc-white);
+}
+
+.pre-sale {
+    font-family: var(--primary);
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    color: var(--fc-white);
+}
+
+
+.about {
+    font-family: var(--primary);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: var(--fc-white);
+
+}
+
+.mt {
+    margin-top: 40px;
+}
+
+.cap {
+    font-family: var(--primary);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: #C3C6C8;
+    margin-bottom: 6px;
+    margin-top: 10px;
+
+}
+
+.cap-number {
+    font-family: var(--primary);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: var(--fc-white);
+}
+
+.buy-btn {
+    width: 170px;
+    height: 49px;
+    padding-left: 10px;
+    padding-top: 12px;
+    border-radius: 79px;
+    font-family: var(--primary);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--fc-white);
+    border: none;
+    gap: 10px;
+    box-shadow: 0px 8px 30px 0px #1BABFE80;
+    background: linear-gradient(90deg, #815CC8 0%, #1BABFE 100%);
+
+
+}
+
+.buy {
+    font-family: var(--primary);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+
+}
+
+.blur-box {
+
+    width: 397px;
+    height: 67px;
+    display: flex;
+    align-items: center;
+    padding-left: 18px;
+}
+
+.border-bottom {
+    border-bottom: 1px solid lightgray;
+}
+
+.border-2 {
+    gap: 6px;
+    width: 397px;
+    height: 67px;
+    display: flex;
+    align-items: center;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.border:hover {
+    transform: scale(1.07);
+    transition: all 200ms linear;
+}
+
+.horizontal-line:before {
+    position: absolute;
+    content: "";
+    width: 395px;
+    height: 0px;
+    border: 0.4px solid #8C8C8C;
+    top: 0;
+    left: 0;
+}
+
+.horizontal-line-2:after {
+    position: absolute;
+    content: "";
+    width: 395px;
+    height: 0px;
+    border: 0.4px solid #8C8C8C;
+    top: 0;
+    left: 0;
+    margin-top: 8px;
+}
+
+.box {
+    display: flex;
+    width: 397px;
+    height: 67px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.border:hover {
+    border: 1px solid;
+    border-image-source: linear-gradient(139.17deg, rgba(255, 255, 255, 0.14) 0%, rgba(255, 255, 255, 0.06) 100%);
+}
+
+
+/* ==============================buttons=================================== */
+.discord-btn {
+    width: 170px;
+    height: 50px;
+    padding: 20px 34px 14px 34px;
+    border-radius: 79px;
+    background: linear-gradient(149.67deg, #815CC8 29.44%, #1BABFE 81.54%);
+    box-shadow: 0px 8px 30px 0px #1BABFE;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--primary);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: white;
+    display: flex;
+    gap: 10px;
+}
+
+.Discord {
+    margin-left: 5px;
+}
+
+
+/* ======================================card-propertty======================================== */
+.card {
+    width: 397px;
+    height: 509px;
+    border-radius: 8px;
+    background: linear-gradient(139.51deg, rgba(255, 255, 255, 0.1) -0.66%, rgba(255, 255, 255, 0.03) 100%);
+    border: 0.4px solid #aebbc1;
+    background-image: url(/assets/image/Rectangle\ 21.png);
+    overflow: hidden;
+}
+
+/* ===================================================================================== */
+
+ul li a {
+    font-family: var(--primary);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    color: var(--fc-white);
+}
+
+.gap {
+    gap: 30px;
+}
+
+.hero-img {
+    max-width: 286px;
+    height: 57.58px;
+}
+
+/* ====================================col property=========================================== */
+.col-7 {
+    width: 58.66%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-6 {
+    width: 50%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-5 {
+    width: 41.33%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+/* =================================utility class===================================== */
+.align-item-center {
+    align-items: center;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+.gap-10 {
+    gap: 10px;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.mt-42 {
+    margin-top: 42px;
+}
+
+.w-100 {
+    width: 100%;
+
+}
+
+.position-relative {
+    position: relative;
+}
+
+.mt-143 {
+    margin-top: 143px;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+.gap-48 {
+    gap: 48px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.mt-56 {
+    margin-top: 56px;
+}
+
+.gap-2 {
+    gap: 2px;
+}
+
+.mt-24 {
+    margin-top: 24px;
+}
+
+.flex-col {
+    flex-direction: column;
+}
